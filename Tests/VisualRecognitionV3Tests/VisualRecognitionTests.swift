@@ -417,7 +417,7 @@ class VisualRecognitionTests: XCTestCase {
                 XCTFail("Could not train a new classifier. Try again later.")
             }
             
-            sleep(5)
+            sleep(15)
         }
         
         let description2 = "Update the classifier with a positive example."
@@ -466,7 +466,7 @@ class VisualRecognitionTests: XCTestCase {
                 XCTFail("Could not update the classifier. Try again later.")
             }
             
-            sleep(5)
+            sleep(15)
         }
 
         // allow zip files to propagate through object storage, so that
@@ -543,7 +543,7 @@ class VisualRecognitionTests: XCTestCase {
                 XCTFail("Could not train a new classifier. Try again later.")
             }
             
-            sleep(5)
+            sleep(15)
         }
         
         let description2 = "Update the classifier with a negative example."
@@ -591,7 +591,7 @@ class VisualRecognitionTests: XCTestCase {
                 XCTFail("Could not update the classifier. Try again later.")
             }
             
-            sleep(5)
+            sleep(15)
         }
 
         // allow zip files to propagate through object storage, so that
